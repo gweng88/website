@@ -1,0 +1,64 @@
+a:link {
+    color: #fff;
+}  
+a:visited {
+    color: #fff;
+}
+body {
+    margin: auto;
+    min-height: 100%;
+    background: #333;
+    color: #fff;
+    font-family: 'Segoe UI';
+    font-weight: lighter;
+}
+.content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    width: 100%;
+    height: 8rem;
+    
+    text-align: center;
+}
+.container {
+    width: 7%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 20px; 
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 800px;
+    }
+}
+.post-header {
+    border-bottom: 1px solid #fff;
+}
+.post-date {
+    width: 4em;
+    flex-shrink: 0;
+    padding-bottom: .9em
+}
+.post-list {
+    display: flex;
+    text-align: center;
+
+    flex-direction: column;
+    align-items: flex-start;
+}
+.post-item {
+    display: flex
+}
+h1 {
+    font-size: 3rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: lighter;
+}
+h2 {
+    margin: 0 0 0.5rem 0;
+    font-weight: lighter;
+}

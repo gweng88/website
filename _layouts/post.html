@@ -1,0 +1,22 @@
+---
+permalink: /:slug
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  {%- include head.html -%}
+  <body>
+    <main class="page-content">
+      <div class="container">
+        <article class="post h-entry">
+          <header class="post-header">
+            <h2 class="post-title p-name">{{ page.title | escape }}</h2>
+          </header>
+          <div class="post-content">
+            {{ content }}
+          </div>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+---
+title: journal
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{%- include head.html -%}
+<style>
+    .container {
+        width: 60%; /* Adjust this to your preference */
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left; /* Set to 'right' for right alignment */
+        padding-top: 20px; /* Adjust the value as needed */
+    }
+    @media (min-width: 1200px) {
+        .container {
+            width: 700px; /* This acts as a 'max-width' */
+        }
+    }
+    .post-date {
+        width: 4em;
+        flex-shrink: 0;
+        padding-bottom: .9em
+    }
+    .post-list {
+        display: flex;
+        text-align: center
+    }
+    .post-item {
+        display: flex
+    }
+</style>
+<body>
+    <div class="container">
+        {%- if page.title -%}
+            <h1>{{ page.title }}</h1>
+        {%- endif -%}
+    
+        {%- if site.posts.size > 0 -%}
+            <div class="post-list">
+                {%- assign date_format = site.date_format | default: "%m/%y" -%}
+                {%- for post in site.posts -%}
+                <div class="post-item">
+                    <div class="post-date">{{ post.date | date: date_format }}</div>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a>
+                </div>
+                {%- endfor -%}
+            </div>
+        {%- endif -%}
+    </div>
+</body>
+</html>
