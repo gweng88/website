@@ -4,6 +4,6 @@ layout: post
 permalink: /laws
 ---
 
-1. 
-2. 
-3. 
+Nothing good happens after 9pm
+
+If you can stream your game, you must stream your game 
