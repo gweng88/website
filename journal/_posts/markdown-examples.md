@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Markdown examples
+published: false
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
