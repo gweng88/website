@@ -15,7 +15,7 @@ When I'm talking to someone, it's not uncommon that I'm explaining an opinion or
 
 ### for my future self
 
-In college, I didn't really take notes during lecture. Instead I tried to use all my brain power on actively listening --. I feel like this worked pretty well, but 1-2 years after I took linear algebra and was taking computer graphics, I realized I needed to do some review. At this point, I **really** wished I took notes in linear algebra. It made me realize one of the great values in taking notes is that it becomes study material for your future self. After all, it's actually an expected aspect of learning something that you will forget it and need to relearn it. I think good notes are written in a way that is specific to how you would want the information presented to you.
+In college, I didn't really take notes during lecture. Instead I tried to use all my brain power on actively listening. (might be coping that I was just lazy) I feel like this worked pretty well, but 1-2 years after I took linear algebra and was taking computer graphics, I realized I needed to do some review. At this point, I **really** wished I took notes in linear algebra. It made me realize one of the great values in taking notes is that it becomes study material for your future self. After all, it's actually an expected aspect of learning something that you will forget it and need to relearn it. I'm sure I will forget more things in the future, so perhaps I can treat my writings as notes to relearn from.
 
 ### signaling
 
@@ -27,7 +27,7 @@ The longer I spend working in tech, the more I've come to appreciate the ability
 
 ### archiving
 
-What was I like 5 years ago? What kind of things was I worried about? What trends was I absorbed by? I hardly remember. Similar to the point of writing for your future self, it seems like a good idea to write periodically so as to have something to look back at during self reflection.
+What was I like 5 years ago? What kind of things was I worried about? What trends was I absorbed by? I hardly remember. Similar to the point of writing for your future self, it seems like a good idea to write periodically so as to leave behind traces of your past self.
 
 
 
